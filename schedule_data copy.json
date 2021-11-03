@@ -1,0 +1,106 @@
+{
+    "P31CBAZ": {
+        "pd_summary": "Networks-FTS x5950",
+        "mail_rcpt": [
+            "ITNetworkSupport@bigCorp.com"
+        ],
+        "pd_api_host": "https://api.pagerduty.com",
+        "pd_api_headers": {
+            "Accept": "application/vnd.pagerduty+json;version=2",
+            "Authorization": "Token token=token"
+        },
+        "contact_method": "Mobile",
+        "numbers": {
+            "country_code": {
+                "1": {
+                    "on_call_number": "+13033947758",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+1|91)?(\\d+)$"
+                },
+                "44": {
+                    "on_call_number": "+442078184888",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+44|90)?(\\d+)$"
+                }
+            }
+        }
+    },
+    "PE0HUU1": {
+        "pd_summary": "Voice-FTS x5960",
+        "mail_rcpt": [
+            "bigCorpITVoiceTeam@bigCorp.com"
+        ],
+        "pd_api_host": "https://api.pagerduty.com",
+        "pd_api_headers": {
+            "Accept": "application/vnd.pagerduty+json;version=2",
+            "Authorization": "Token token=token"
+        },
+        "contact_method": "Mobile",
+        "numbers": {
+            "country_code": {
+                "1": {
+                    "on_call_number": "+13033947760",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+1|91)?(\\d+)$"
+                },
+                "44": {
+                    "on_call_number": "+442078185888",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+44|90)?(\\d+)$"
+                }
+            }
+        }
+    },
+    "PUYY2T1": {
+        "pd_summary": "Duty Incident Managers",
+        "mail_rcpt": [
+            "user1@bigCorp.com"
+        ],
+        "pd_api_host": "https://api.pagerduty.com",
+        "pd_api_headers": {
+            "Accept": "application/vnd.pagerduty+json;version=2",
+            "Authorization": "Token token=token"
+        },
+        "contact_method": "Mobile",
+        "numbers": {
+            "country_code": {
+                "1": {
+                    "on_call_number": "8780180",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+1|91)?(\\d+)$"
+                },
+                "44": {
+                    "on_call_number": "8791280",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+44|90)?(\\d+)$"
+                }
+            }
+        }
+    },
+    "PK3ISJ2": {
+        "pd_summary": "OSMS-FTS x3375",
+        "mail_rcpt": [
+            "user1@bigCorp.com"
+        ],
+        "pd_api_host": "https://api.pagerduty.com",
+        "pd_api_headers": {
+            "Accept": "application/vnd.pagerduty+json;version=2",
+            "Authorization": "Token token=token"
+        },
+        "contact_method": "Mobile",
+        "numbers": {
+            "country_code": {
+                "1": {
+                    "on_call_number": "+13033947757",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+1|91)?(\\d+)$"
+                },
+                "44": {
+                    "on_call_number": "+442078183888",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+44|90)?(\\d+)$"
+                }
+            }
+        }
+    }
+}

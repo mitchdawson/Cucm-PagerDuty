@@ -1,0 +1,14 @@
+{
+    "1": {
+        "cucm_axl_url": "https://uschicucpd01.bigCorp.com:8443/axl/",
+        "axl_user": "user",
+        "axl_pass": "pass",
+        "cucm_ver": "11.5"
+    },
+    "44": {
+        "cucm_axl_url": "https://ukloncucpd01.bigCorp.com:8443/axl/",
+        "axl_user": "user",
+        "axl_pass": "pass",
+        "cucm_ver": "11.5"
+    }
+}

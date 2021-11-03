@@ -1,0 +1,28 @@
+{
+    "PK3ISJ2": {
+        "pd_summary": "OSMS-FTS x3375",
+        "mail_rcpt": [
+            "Mitch.Dawson@BigCorp.com"
+        ],
+        "pd_api_host": "https://api.pagerduty.com",
+        "pd_api_headers": {
+            "Accept": "application/vnd.pagerduty+json;version=2",
+            "Authorization": "Token token=token"
+        },
+        "contact_method": "Mobile",
+        "numbers": {
+            "country_code": {
+                "1": {
+                    "on_call_number": "+13033947757",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+1|91|1)?(\\d+)$"
+                },
+                "44": {
+                    "on_call_number": "+442078183888",
+                    "on_call_partition": "PAR_RESOURCES",
+                    "regex": "^(?:\\+44|90|0)?(\\d+)$"
+                }
+            }
+        }
+    }
+}
