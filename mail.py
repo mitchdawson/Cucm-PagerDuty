@@ -8,7 +8,6 @@ from email.message import Message
 class Mail():
 
     def __init__(self, smtp_host, smtp_port):
-        super().__init__(smtp_host, smtp_port)
 
     @staticmethod
     def build_message(sender, destination, subject, body):
